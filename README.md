@@ -5,12 +5,16 @@
 ## Reconstruction sampling
 Epoch 6
 ![reconstruction_epoch_6.png](vae_results/reconstruction_epoch_6.png)
+
 Epoch 12
 ![reconstruction_epoch_12.png](vae_results/reconstruction_epoch_12.png)
+
 Epoch 36
 ![reconstruction_epoch_36.png](vae_results/reconstruction_epoch_36.png)
+
 Epoch 48
 ![reconstruction_epoch_48.png](vae_results/reconstruction_epoch_48.png)
+
 Epoch 50
 ![reconstruction_epoch_50.png](vae_results/reconstruction_epoch_50.png)
 
@@ -18,10 +22,13 @@ Epoch 50
 ## Random Generated vectors
 Epoch 6
 ![generated_sample_epoch_6.png](vae_results/generated_sample_epoch_6.png)
+
 Epoch 12
 ![generated_sample_epoch_12.png](vae_results/generated_sample_epoch_12.png)
+
 Epoch 36
 ![generated_sample_epoch_36.png](vae_results/generated_sample_epoch_36.png)
+
 Epoch 50
 ![generated_sample_epoch_50.png](vae_results/generated_sample_epoch_50.png)
 
@@ -29,6 +36,12 @@ Epoch 50
 ## Latent Space Interpolation
 Interpolating between two random points in the latent space shows smooth transitions between icon styles:
 ![interpolation_example](vae_results/interpolation/interpolation_7_208_to_169.png)
+![interpolation_example](vae_results/interpolation/interpolation_3_498_to_375.png)
+![interpolation_example](vae_results/interpolation/interpolation_5_389_to_556.png)
+![interpolation_example](vae_results/interpolation/interpolation_6_192_to_593.png)
+![interpolation_example](vae_results/interpolation/interpolation_8_106_to_196.png)
+![interpolate_example](vae_results/ui_operations/interpolate_55_to_423_20steps.png)
+![interpolate_complex_example](vae_results/ui_operations/interpolate_175_to_630_10steps.png)
 
 ## Final Results
 Final reconstructions and generated samples:
@@ -63,9 +76,6 @@ Examples of vector arithmetic in the latent space:
 ![divide_complex_example](vae_results/ui_operations/divide_448_267.png)
 ![divide_complex_example](vae_results/ui_operations/divide_512_205.png)
 
-### Icon Interpolation
-![interpolate_example](vae_results/ui_operations/interpolate_55_to_423_20steps.png)
-![interpolate_complex_example](vae_results/ui_operations/interpolate_175_to_630_10steps.png)
 
 ## Model Architecture
 The VAE consists of an encoder and decoder with the following structure:
